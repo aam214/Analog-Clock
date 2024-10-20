@@ -36,6 +36,21 @@ body{
 .nine{
   transform:  translate(40px, 240px);  
 }
+.arrow-hands{
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 550px;
+display: flex;
+ 
+}
+.arrow-hands::before{
+  content: "";
+  border-radius: 50%;
+  width: 30px;
+  background-color:gold;
+  height: 30px;
+}
 @media(max-width:550px){
   .clock{
     margin: 5px;
